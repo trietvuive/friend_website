@@ -1,0 +1,3 @@
+[submodule "themes/card"]
+	path = themes/card
+	url = https://github.com/CaiJimmy/hugo-theme-stack

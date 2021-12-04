@@ -1,0 +1,27 @@
+baseURL = "https://2k-home.com/"
+languageCode = "en-us"
+title = "2k-home"
+theme = "card"
+
+
+[deployment]
+order = [".png$",".jpg$", ".gif$"]
+
+
+[[deployment.targets]]
+URL = "s3://2k-home?region=ap-southeast-1"
+
+[[deployment.matchers]]
+# Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true

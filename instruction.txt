@@ -1,0 +1,13 @@
+1. download và install cái này
+https://aws.amazon.com/cli/
+
+2.
+mở powershell. nhập aws configure
+Access Key ID: AKIA46UJRR64GFXEEWWH 
+Secret Access Key = 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
+Default region = ap-southeast-1
+Default output format = json
+
+3. download website và chỉnh sửa image
+mỗi lần chỉnh sửa image xong, nhập hugo với hugo deploy để chỉnh website.
+nhập hugo server -D và và nhập localhost:1313 trên chrome để preview website.
