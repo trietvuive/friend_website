@@ -1,9 +1,11 @@
-1. download và install cái này
+1. </br>
+download và install cái này
 https://aws.amazon.com/cli/ </br>
 1a.
 Install hugo. On window, install Chocolatey with Administrative PowerShell (https://chocolatey.org/install)
-After installing chocolatey, type choco install hugo. </br>
-2.
+After installing chocolatey, type choco install hugo. </br></br>
+
+2. </br>
 mở Administrative Powershell. nhập aws configure </br>
 Access Key ID: AKIA46UJRR64GFXEEWWH </br>
 Secret Access Key = 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 </br>
@@ -17,4 +19,4 @@ nhập hugo server -D và và nhập localhost:1313 trên chrome để preview w
 </br>
 4. To create new post, copy over a folder from /content/post (preferrably deluxe-room). Edit the content in index.md. Photo with caption can be inserted like this: </br>
 ![caption here](name of the image here) </br>
-Remember that you must put all images in the same folder as the index.md
+Remember that you must put all images in the same folder as the index.md </br>
