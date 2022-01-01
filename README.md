@@ -1,7 +1,6 @@
 1.
 download và install cái này
 https://aws.amazon.com/cli/ </br>
-1a.
 Install hugo. On window, install Chocolatey with Administrative PowerShell (https://chocolatey.org/install)
 After installing chocolatey, type choco install hugo. </br></br>
 
