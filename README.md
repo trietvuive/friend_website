@@ -13,10 +13,12 @@ Default output format = json </br>
 
 3. 
 download this repo either as zip or using git pull và chỉnh sửa image </br>
-mỗi lần chỉnh sửa image xong, nhập hugo với hugo deploy để chỉnh website. </br>
+mỗi lần chỉnh sửa image xong, nhập hugo với hugo deploy để upload to the website. </br>
 nhập hugo server -D và và nhập localhost:1313 trên chrome để preview website. </br>
 
 4. 
 To create new post, copy over a folder from /content/post (preferrably deluxe-room). Edit the content in index.md. Photo with caption can be inserted like this: </br>
 ![caption here](name of the image here) </br>
 Remember that you must put all images in the same folder as the index.md </br>
+
+5.
