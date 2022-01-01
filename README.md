@@ -12,9 +12,8 @@ Secret Access Key = XtNUQqXgk6HxQ4z4FX3C5tUmhF7dD0SUTwTRslKs </br>
 Default region = ap-southeast-1 </br>
 Default output format = json </br>
 
-
 3. 
-download website và chỉnh sửa image
+download this repo either as zip or using git pull và chỉnh sửa image </br>
 mỗi lần chỉnh sửa image xong, nhập hugo với hugo deploy để chỉnh website. </br>
 nhập hugo server -D và và nhập localhost:1313 trên chrome để preview website. </br>
 
